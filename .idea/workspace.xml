@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e141c112-9304-40f4-92e1-67c5207a3196" name="Default Changelist" comment="" />
+    <list default="true" id="e141c112-9304-40f4-92e1-67c5207a3196" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/libraries/loginlib.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/migrations/0002_token.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/token.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/loginview.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/construction_portal/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/construction_portal/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/construction_portal/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/construction_portal/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/libraries/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/libraries/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/libraries/userlib.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/libraries/userlib.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/__init__.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +27,16 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1OpNtfXzw7RA782nTV6QZcBOa93" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -44,5 +64,21 @@
       <updated>1564670793199</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

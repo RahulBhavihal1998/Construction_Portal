@@ -54,8 +54,9 @@ class UserLib():
             password_hash, salt = self.password_hashing(self.user_info["password"])
             print (password_hash, salt)
 
-            password_hash_2, salt_2 = self.password_hashing(self.user_info["password"], salt)
-            print (password_hash_2, salt_2)
+            self.user_info["password"] = password_hash
+            self.user_info["salt"] = salt
+
             site.objects.create(**self.user_info)
         else:
             return message, False
